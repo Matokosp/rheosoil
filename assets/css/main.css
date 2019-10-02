@@ -1,0 +1,72 @@
+body {
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  z-index: 50;
+  padding: 30px 0 0 30px;
+  width: 100%;
+}
+
+.menu img {
+  width: 200px;
+}
+
+.menu ul {
+  float: right;
+  margin-right: 5vw;
+}
+
+.menu ul li {
+  font-weight: 600;
+  color: #fff;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+header {
+  height: 110vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  position: relative;
+}
+
+.video {
+  display: block;
+    min-height: 100%;
+    min-width: 100vw;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -5;
+}
+
+.header_title {
+  margin: 35vh 0 0 15vw;
+  color: #fff;
+}
+
+.header_title h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.brief {
+  width: 100%;
+  background-image: url('../images/bkg-1.png');
+  background-size: cover;
+  background-repeat: none;
+  height: 540px;
+  position: relative;
+  top: -200px;
+}
