@@ -6,20 +6,28 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
     <title></title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,700,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/menu.css">
     <link rel="stylesheet" href="assets/css/main.css">
   </head>
   <body>
     <!-- MENU -->
     <nav class="menu">
-      <img src="assets/images/logo.png" alt="">
+      <img class="menu_logo dsktp" src="assets/images/logo.png" alt="">
+      <img class="menu_logo mobile" src="assets/images/logo-black.png" alt="">
+      <img src="" alt="">
       <ul>
-        <li>HOME</li>
-        <li>SERVICIOS</li>
-        <li>NOSOTROS</li>
-        <li>CONTACTO</li>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">SERVICIOS</a></li>
+        <li><a href="#">NOSOTROS</a></li>
+        <li><a href="#">CONTACTO</a></li>
       </ul>
     </nav>
+    <div class="hamburger_div" id="hamburger">
+        <div class="menuicon" id="menuIconFirst"></div>
+        <div class="menuicon" id="menuIconSecond"></div>
+        <div class="menuicon" id="menuIconThird"></div>
+    </div>
     <!-- HOME PAGE -->
     <header>
       <video id="video" class="video" src="assets/images/lab.mp4" playsinline preload="auto" muted autoplay loop>
@@ -31,10 +39,19 @@
         nuextra experiencia.</h1>
         <h3>Pruebas de Laboratorio, Trabajos en Terreno, Consultorías.</h3>
       </div>
+      <img class="header_bottom" src="assets/images/bkg-1.png" alt="">
     </header>
     <section class="brief">
-
+      <h2 class="brief_text">Con la experiencia de nuestro equipo, aseguramos entregar a nuestros clientes <span class="brief_text-span">un servicio de alta calidad y estándar.</span></h2>
+    </section>
+    <section class="servicios">
+      <img class="servicios_top" src="assets/images/bkg-2.png" alt="">
+      <img class="servicios_title" src="assets/images/servicios-title.png" alt="">
     </section>
 
+    <!-- jQuery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+      <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+      <script type="text/javascript" src="assets/js/myscript.js"></script>
   </body>
 </html>

@@ -4,39 +4,20 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
 }
 
-.menu {
-  position: fixed;
-  top: 0;
-  z-index: 50;
-  padding: 30px 0 0 30px;
-  width: 100%;
-}
-
-.menu img {
-  width: 200px;
-}
-
-.menu ul {
-  float: right;
-  margin-right: 5vw;
-}
-
-.menu ul li {
-  font-weight: 600;
-  color: #fff;
-  display: inline-block;
-  margin: 0 20px;
-}
-
 header {
-  height: 110vh;
+  height: 100vh;
   width: 100%;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.5);
   overflow: hidden;
   position: relative;
 }
@@ -61,12 +42,39 @@ header {
   font-weight: 700;
 }
 
-.brief {
+.header_bottom {
+  position: absolute;
+  bottom: 0;
   width: 100%;
-  background-image: url('../images/bkg-1.png');
-  background-size: cover;
-  background-repeat: none;
-  height: 540px;
-  position: relative;
-  top: -200px;
+}
+
+.brief {
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+  padding: 180px 0;
+}
+
+.brief_text {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #b3b3b3;
+}
+
+.brief_text-span {
+  color: #5b5b5b;
+}
+
+.servicios {
+  background-color: #e6e6e6;
+}
+
+.servicios_top {
+  width: 100%;
+}
+
+.servicios_title {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
