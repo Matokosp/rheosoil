@@ -14,16 +14,28 @@ ul {
   padding: 0;
 }
 
-header {
+.front_hero {
   height: 100vh;
   width: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(0, 0, 0, 0.5); */
   overflow: hidden;
   position: relative;
+  background-image: url('../images/bkg-mobile.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
+/* BACKGROUND IMAGES FOR TRANSITION FROM SECTION TO SECTION */
+
+.waves_bkg {
+  width: 100%;
+}
+
+/* VIDEO BACKGROUND FOR HEADER, DOESNT DISPLAY IN MOBILE VERSION */
+
 .video {
-  display: block;
+    display: none;
     min-height: 100%;
     min-width: 100vw;
 		position: absolute;
@@ -32,31 +44,33 @@ header {
 		z-index: -5;
 }
 
+/* FRONT HEADER OF THE PAGE */
+
 .header_title {
-  margin: 35vh 0 0 15vw;
+  margin: 35vh 0 0 5vw;
   color: #fff;
 }
 
 .header_title h1 {
-  font-size: 3rem;
+  /* font-size: 2.4rem; */
   font-weight: 700;
 }
 
 .header_bottom {
   position: absolute;
   bottom: 0;
-  width: 100%;
 }
+
+/* BRIEF SECTION */
 
 .brief {
   text-align: center;
-  width: 800px;
   margin: 0 auto;
-  padding: 180px 0;
+  padding: 100px 5vw;
 }
 
 .brief_text {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   font-weight: 900;
   color: #b3b3b3;
 }
@@ -65,16 +79,237 @@ header {
   color: #5b5b5b;
 }
 
+/* SERVICIOS SECTION */
+
 .servicios {
   background-color: #e6e6e6;
-}
-
-.servicios_top {
-  width: 100%;
 }
 
 .servicios_title {
   width: 100%;
   margin: 0;
   padding: 0;
+}
+
+/* SERVICIOS FLEX CONTAINER */
+
+.servicios_flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+/* SERVICIOS FLEX ITEMS */
+
+.servicios_category {
+  height: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 10px 0;
+  padding: 0 10%;
+}
+
+.reologia {
+  background-image: url('../images/reologia-category.jpg');
+}
+
+.mecanicasuelos {
+  background-image: url('../images/mecanicasuelos-category.jpg');
+}
+
+.medioambiente {
+  background-image: url('../images/medioambiente-category.jpg');
+}
+
+.servicios_category_text {
+  padding-top: 80%;
+  height: 30%;
+}
+
+.servicios_category_text h3 {
+  color: #fff;
+  font-size: 2rem;
+  margin: 10px 0px;
+}
+
+.category_underline {
+  height: 2px;
+  width: 40px;
+  background-color: #fff;
+}
+
+.servicios_category_text p {
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+.pruebas_link {
+  border: solid 1px white;
+  border-radius: 50px;
+  padding: 4px 15px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.pruebas_link:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* SERVICIOS FLEX ITEMS SMALL */
+
+.servicios_externos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 270px;
+  margin: 10px 0;
+}
+
+.asesorias {
+  background-image: url('../images/asesorias.jpg');
+}
+
+.controles {
+  background-image: url('../images/controles.jpg');
+}
+
+.calicatas {
+  background-image: url('../images/calicatas.jpg');
+}
+
+.servicios_externos h3 {
+  font-size: 2rem;
+  margin: 5px;
+}
+
+.servicios_externos img {
+  width: 50px;
+  margin: 10px 0;
+}
+
+.servicios_bottom {
+  position: relative;
+  top: 4px;
+}
+
+/* SECTION NOSOTROS */
+
+.nosotros {
+  background-color: #1a1a1a;
+  text-align: center;
+}
+
+.nosotros_header {
+  text-align: center;
+  padding: 30px 10vw;
+  color: #fff;
+}
+
+.section_title {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.header_underline {
+  background-color: #fff;
+  height: 3px;
+  width: 30px;
+  margin: 0 auto;
+}
+
+.header_text {
+  font-size: 0.8rem;
+}
+
+/* STAFF FLEX */
+
+.staff_flex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 0 10vw;
+}
+
+.staff_item {
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.staff_item_photo {
+  width: 100%;
+}
+
+.staff_info {
+  margin: 15px 0;
+  padding: 10px;
+  border: solid 3px white;
+}
+
+.staff_name {
+  color: #fff;
+  font-size: 1.4rem;
+  margin: 10px 0;
+}
+
+.staff_info_line {
+  background-color: #fff;
+  height: 3px;
+  width: 30px;
+  margin: 5px auto;
+}
+
+.staff_position {
+  color: #fff;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.staff_email {
+  color: #cba870;
+  font-size: 0.9rem;
+  display: block;
+  margin: 5px 0;
+}
+
+.staff_linkedin {
+  display: block;
+  width: 35px;
+  margin: 10px auto;
+}
+
+.staff_linkedin img {
+  width: 100%;
+}
+
+  /* CLIENTES SECTION */
+
+.clientes {
+  background-color: #1a1a1a;
+}
+
+.clientes_header {
+  padding: 30px 5vw;
+  text-align: center;
+}
+
+.clientes_flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.clientes_item {
+  width: 35%;
+  padding: 10px 5%;
 }

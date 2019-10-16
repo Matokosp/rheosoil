@@ -17,10 +17,10 @@
       <img class="menu_logo mobile" src="assets/images/logo-black.png" alt="">
       <img src="" alt="">
       <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">SERVICIOS</a></li>
-        <li><a href="#">NOSOTROS</a></li>
-        <li><a href="#">CONTACTO</a></li>
+        <li><a href="#header">HOME</a></li>
+        <li><a href="#servicios">SERVICIOS</a></li>
+        <li><a href="#nosotros">NOSOTROS</a></li>
+        <li><a href="#contacto">CONTACTO</a></li>
       </ul>
     </nav>
     <div class="hamburger_div" id="hamburger">
@@ -29,7 +29,7 @@
         <div class="menuicon" id="menuIconThird"></div>
     </div>
     <!-- HOME PAGE -->
-    <header>
+    <header class="front_hero" id="header">
       <video id="video" class="video" src="assets/images/lab.mp4" playsinline preload="auto" muted autoplay loop>
 
       </video>
@@ -39,15 +39,142 @@
         nuextra experiencia.</h1>
         <h3>Pruebas de Laboratorio, Trabajos en Terreno, Consultorías.</h3>
       </div>
-      <img class="header_bottom" src="assets/images/bkg-1.png" alt="">
+      <img class="header_bottom waves_bkg" src="assets/images/bkg-1.png" alt="">
     </header>
     <section class="brief">
       <h2 class="brief_text">Con la experiencia de nuestro equipo, aseguramos entregar a nuestros clientes <span class="brief_text-span">un servicio de alta calidad y estándar.</span></h2>
     </section>
-    <section class="servicios">
-      <img class="servicios_top" src="assets/images/bkg-2.png" alt="">
-      <img class="servicios_title" src="assets/images/servicios-title.png" alt="">
+    <section class="servicios" id="servicios">
+      <img class="servicios_top waves_bkg" src="assets/images/bkg-2.png" alt="">
+      <img class="servicios_title" src="assets/images/servicios-title.png" alt="servicios">
+      <section class="servicios_flex">
+        <article class="servicios_category reologia">
+          <div class="servicios_category_text">
+            <h3>Reología</h3>
+            <div class="category_underline"></div>
+            <p>Las pruebas de reología estudian el comportamiento reológico de la muestra, a través de la utilización de un reómetro rotacional para medir las condiciones de torque que el equipo a escala industrial deberá satisfacer.</p>
+          </div>
+          <a class="pruebas_link" href="#">ver pruebas</a>
+        </article>
+        <article class="servicios_category mecanicasuelos">
+          <div class="servicios_category_text">
+            <h3>Mecánica de Suelos</h3>
+            <div class="category_underline"></div>
+            <p>Las pruebas de Mecánica de Suelos permiten extrapolar información.</p>
+          </div>
+          <a class="pruebas_link" href="#">ver pruebas</a>
+        </article>
+        <article class="servicios_category medioambiente">
+          <div class="servicios_category_text">
+            <h3>Medioambiente</h3>
+            <div class="category_underline"></div>
+            <p>Lorem lean startup ipsum product market fit customer development acquihire technical cofounder. User engagement A/B testing shrink a market venture capital pitch deck.</p>
+          </div>
+          <a class="pruebas_link" href="#">ver pruebas</a>
+        </article>
+        <article class="servicios_externos asesorias">
+          <h3>Asesorías</h3>
+          <img src="assets/images/asesorias-icon.png" alt="">
+          <p>Puesta en marcha de plantas de relaves espesados</p>
+        </article>
+        <article class="servicios_externos controles">
+          <h3>Controles</h3>
+          <img src="assets/images/controles-icon.png" alt="">
+          <p>Controles geotécnicos a depósitos de relave</p>
+        </article>
+        <article class="servicios_externos calicatas">
+          <h3>Calicatas</h3>
+          <img src="assets/images/calicatas-icon.png" alt="">
+          <p>Realización de calicatas</p>
+        </article>
+      </section>
+      <img class="servicios_bottom waves_bkg" src="assets/images/bkg-3.png" alt="">
     </section>
+    <section class="nosotros" id="nosotros">
+      <header class="nosotros_header">
+        <h2 class="section_title">Nuestra Empresa</h2>
+        <div class="header_underline"></div>
+        <p class="header_text">En el año 2016, se forma el laboratorio de Rheosoil, para entregar una amplia gama de soluciones mediante la ejecución de pruebas específicas de suelos y relaves, tanto a escala laboratorio como a escala industrial. A través de la gran experiencia de sus socios fundadores, tanto en pruebas físicas de relaves como en la operación de plantas piloto e industriales, es posible entregar a nuestros clientes un servicio de pruebas para definir los parámetros de diseño y operación para el manejo y almacenamiento de relaves.</p>
+      </header>
+      <div class="staff_flex">
+        <div class="staff_item">
+          <img class="staff_item_photo" src="assets/images/staff-1.jpg" alt="Rodrigo Valdebenito">
+          <div class="staff_info">
+            <h3 class="staff_name">Rodrigo Valdebenito</h3>
+            <div class="staff_info_line"></div>
+            <h4 class="staff_position">gerente general</h4>
+            <a class="staff_email" href="mailto:rodrigo.valdebenito@rheosoil.cl">rodrigo.valdebenito@rheosoil.cl</a>
+            <a class="staff_linkedin" href="#"><img src="assets/images/linkedin-logo.png" alt=""></a>
+          </div>
+        </div>
+        <div class="staff_item">
+          <img class="staff_item_photo" src="assets/images/staff-1.jpg" alt="Rodrigo Valdebenito">
+          <div class="staff_info">
+            <h3 class="staff_name">Ignacio Valdebenito</h3>
+            <div class="staff_info_line"></div>
+            <h4 class="staff_position">maestro chasquilla</h4>
+            <a class="staff_email" href="mailto:ignacio.valdebenito@rheosoil.cl">ignacio.valdebenito@rheosoil.cl</a>
+            <a class="staff_linkedin" href="#"><img src="assets/images/linkedin-logo.png" alt=""></a>
+          </div>
+        </div>
+        <div class="staff_item">
+          <img class="staff_item_photo" src="assets/images/staff-1.jpg" alt="Rodrigo Valdebenito">
+          <div class="staff_info">
+            <h3 class="staff_name">Luis Gutierrez</h3>
+            <div class="staff_info_line"></div>
+            <h4 class="staff_position">jefe laboratorio relaves</h4>
+            <a class="staff_email" href="mailto:luis.guitierrez@rheosoil.cl">luis.guitierrez@rheosoil.cl</a>
+            <a class="staff_linkedin" href="#"><img src="assets/images/linkedin-logo.png" alt=""></a>
+          </div>
+        </div>
+        <div class="staff_item">
+          <img class="staff_item_photo" src="assets/images/staff-1.jpg" alt="Rodrigo Valdebenito">
+          <div class="staff_info">
+            <h3 class="staff_name">Panchi</h3>
+            <div class="staff_info_line"></div>
+            <h4 class="staff_position">prevensión de riesgo</h4>
+            <a class="staff_email" href="mailto:rodrigo.valdebenito@rheosoil.cl">rodrigo.valdebenito@rheosoil.cl</a>
+            <a class="staff_linkedin" href="#"><img src="assets/images/linkedin-logo.png" alt=""></a>
+          </div>
+        </div>
+        <div class="staff_item">
+          <img class="staff_item_photo" src="assets/images/staff-1.jpg" alt="Rodrigo Valdebenito">
+          <div class="staff_info">
+            <h3 class="staff_name">Felipe Valdebenito</h3>
+            <div class="staff_info_line"></div>
+            <h4 class="staff_position">contador</h4>
+            <a class="staff_email" href="mailto:felipe.valdebenito@rheosoil.cl">felipe.valdebenito@rheosoil.cl</a>
+            <a class="staff_linkedin" href="#"><img src="assets/images/linkedin-logo.png" alt=""></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="clientes">
+      <header class="clientes_header">
+        <h2 class="section_title">Nuestros Clientes</h2>
+        <div class="header_underline"></div>
+      </header>
+      <section class="clientes_flex">
+        <img class="clientes_item" src="assets/images/collahuasi.png" alt="collahuasi">
+        <img class="clientes_item" src="assets/images/codelco.png" alt="codelco">
+        <img class="clientes_item" src="assets/images/andesiron.png" alt="andesiron">
+        <img class="clientes_item" src="assets/images/arava.png" alt="arava mines ltd">
+        <img class="clientes_item" src="assets/images/coemin.png" alt="grupo minero carola coemin">
+        <img class="clientes_item" src="assets/images/altos.png" alt="altos de punitaqui minera">
+        <img class="clientes_item" src="assets/images/cenizas.png" alt="grupo minero las cenizas">
+        <img class="clientes_item" src="assets/images/centinela.png" alt="centinela antofagasta minerals">
+        <img class="clientes_item" src="assets/images/altonorte.png" alt="alto norte">
+        <img class="clientes_item" src="assets/images/cap.png" alt="cap minera">
+        <img class="clientes_item" src="assets/images/enami.png" alt="enami empresa nacional de mineria">
+        <img class="clientes_item" src="assets/images/pucobre.png" alt="pucobre">
+        <img class="clientes_item" src="assets/images/yamana.png" alt="yamana gold">
+      </section>
+    </section>
+    <section class="contact" id="contact">
+
+    </section>
+    <footer>
+    </footer>
 
     <!-- jQuery -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
