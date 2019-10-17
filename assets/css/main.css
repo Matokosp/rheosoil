@@ -170,6 +170,8 @@ ul {
   background-repeat: no-repeat;
   height: 270px;
   margin: 10px 0;
+  padding: 0 5%;
+  text-align: center;
 }
 
 .asesorias {
@@ -185,8 +187,9 @@ ul {
 }
 
 .servicios_externos h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   margin: 5px;
+  text-align: center;
 }
 
 .servicios_externos img {
@@ -206,9 +209,9 @@ ul {
   text-align: center;
 }
 
-.nosotros_header {
+.section_header {
+  padding: 30px 5vw;
   text-align: center;
-  padding: 30px 10vw;
   color: #fff;
 }
 
@@ -296,20 +299,126 @@ ul {
   background-color: #1a1a1a;
 }
 
-.clientes_header {
-  padding: 30px 5vw;
-  text-align: center;
-}
-
 .clientes_flex {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 
 .clientes_item {
   width: 35%;
   padding: 10px 5%;
+}
+
+/* BOTTOM BKG TRANSITION CLIENTS-CONTACT */
+
+.clientes_bottom {
+  position: relative;
+  top: 3px;
+}
+
+/* CONTACT SECTION */
+
+.contact {
+  background-color: #efac5b;
+}
+
+/* CONTACT FLEX SECTION */
+
+.contact_flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_item {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/* CONTACT MAP */
+
+.contact_location {
+  padding: 0 10vw;
+}
+
+.contact_map {
+  height: 250px;
+}
+
+/* CONTACT FORM */
+
+.contact_form_section {
+  padding: 0 10vw;
+}
+
+.contact_form_text {
+  font-size: 0.8rem;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  color: gray;
+  text-transform: uppercase;
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: none; /* Gray border */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #97bcd3;
+  letter-spacing: 2px;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 50px;
+  -moz-box-shadow: 2px 1px 5px rgb(0,0,0,0.5);
+  -webkit-box-shadow: 2px 1px 5px rgb(0,0,0,0.5);
+  box-shadow: 2px 1px 5px rgb(0,0,0,0.5);
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: rgb(94,188,184);
+}
+
+/* FOOTER SECTION */
+
+.footer {
+  background-color: #1a1a1a;
+  padding: 30px 10vw;
+  text-align: center;
+  color: #fff;
+}
+
+.footer_line {
+  display: block;
+  margin: 50px auto;
+  height: 2px;
+  width: 80px;
+  background-color: #fff;
+}
+
+.footer_address {
+  font-size: 0.9rem;
+}
+
+.footer_img_logo {
+  width: 180px;
+}
+
+.footer_certification {
+  font-style: italic;
+  font-size: 0.9rem;
 }
