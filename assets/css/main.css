@@ -4,6 +4,10 @@ body {
   margin: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -91,7 +95,7 @@ ul {
   padding: 0;
 }
 
-/* SERVICIOS FLEX CONTAINER */
+/* SERVICIOS FLEX CONTAINER BIG CATEGORIES */
 
 .servicios_flex {
   display: flex;
@@ -123,8 +127,8 @@ ul {
 }
 
 .servicios_category_text {
-  padding-top: 80%;
-  height: 30%;
+  padding-top: 45%;
+  height: 75%;
 }
 
 .servicios_category_text h3 {
@@ -210,7 +214,7 @@ ul {
 }
 
 .section_header {
-  padding: 30px 5vw;
+  padding: 30px 10vw;
   text-align: center;
   color: #fff;
 }

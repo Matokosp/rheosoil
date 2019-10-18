@@ -1,0 +1,51 @@
+@media (min-width: 740px) and (orientation: portrait) {
+
+  /* SERVICIOS FLEX CONTAINER */
+
+  .servicios_flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  /* SERVICIOS FLEX ITEMS BIG CATEGORIES */
+
+  .servicios_category {
+    width: 32.2%;
+    height: 600px;
+    margin: 10px 4px;
+    padding: 0 5%;
+  }
+
+  .servicios_category_text {
+    padding-top: 80%;
+    height: 70%;
+  }
+
+  .servicios_category_text h3 {
+    font-size: 1.5rem;
+  }
+
+  .servicios_category_text p {
+    font-size: 0.8rem;
+  }
+
+  /* SERVICIOS FLEX ITEMS SMALL */
+
+  .servicios_externos {
+    width: 32.2%;
+    height: 270px;
+    margin: 10px 4px;
+    padding: 0 5%;
+    text-align: center;
+  }
+
+  .servicios_externos h3 {
+    font-size: 1rem;
+  }
+
+  .servicios_externos_description {
+    font-size: 0.8rem;
+  }
+
+}
