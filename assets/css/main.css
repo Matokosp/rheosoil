@@ -62,7 +62,7 @@ ul {
 
 .header_bottom {
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
 }
 
 /* BRIEF SECTION */
@@ -101,6 +101,7 @@ ul {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  padding: 40px 0;
 }
 
 /* SERVICIOS FLEX ITEMS */
@@ -155,6 +156,7 @@ ul {
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 2px;
+  transition: 0.4s;
 }
 
 .pruebas_link:hover {
@@ -172,7 +174,8 @@ ul {
   color: #fff;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 270px;
+  background-position: center center;
+  height: 500px;
   margin: 10px 0;
   padding: 0 5%;
   text-align: center;
@@ -199,6 +202,10 @@ ul {
 .servicios_externos img {
   width: 50px;
   margin: 10px 0;
+}
+
+.servicios_externos_description {
+  font-size: 0.8rem;
 }
 
 .servicios_bottom {
@@ -352,7 +359,7 @@ ul {
 }
 
 .contact_map {
-  height: 250px;
+  height: 300px;
 }
 
 /* CONTACT FORM */

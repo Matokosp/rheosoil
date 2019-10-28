@@ -6,6 +6,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
   }
 
   /* SERVICIOS FLEX ITEMS BIG CATEGORIES */
@@ -34,7 +36,7 @@
 
   .servicios_externos {
     width: 32.2%;
-    height: 270px;
+    height: 500px;
     margin: 10px 4px;
     padding: 0 5%;
     text-align: center;
@@ -46,6 +48,336 @@
 
   .servicios_externos_description {
     font-size: 0.8rem;
+  }
+
+  /* STAFF FLEX */
+
+  .staff_flex {
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 5vw;
+  }
+
+  .staff_item {
+    width: 33.3%;
+    margin: 20px 0;
+    padding: 0 4px;
+  }
+
+  .staff_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 270px;
+    margin: 15px 0;
+    padding: 10px;
+    border: solid 3px white;
+  }
+
+}
+
+
+@media (min-width: 810px) and (orientation: portrait) {
+
+  /* FRONT HEADER OF THE PAGE */
+
+  .header_title {
+    margin: 35vh 0 0 10vw;
+  }
+
+  /* BRIEF SECTION */
+
+  .brief_text {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* STAFF FLEX */
+
+  .staff_info {
+    height: 250px;
+    margin: 15px 0;
+    padding: 5px;
+    border: solid 2px white;
+  }
+
+}
+
+@media (min-width: 920px) and (orientation: portrait) {
+
+  /* FRONT HEADER OF THE PAGE */
+
+  .header_title {
+    margin: 35vh 0 0 10vw;
+  }
+
+  .header_title h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+  }
+
+  /* SERVICIOS FLEX CONTAINER */
+
+  .servicios_flex {
+    max-width: 950px;
+  }
+
+  /* CLIENTES SECTION */
+
+.clientes_flex {
+  padding: 0 8vw;
+}
+
+.clientes_item {
+  width: 25%;
+  padding: 10px 2%;
+}
+
+/* CONTACT FLEX SECTION */
+
+.contact_flex {
+  flex-direction: row;
+  padding: 50px 2vw;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.contact_item {
+  margin-bottom: 0px;
+  width: 50%;
+}
+
+/* CONTACT MAP */
+
+.contact_location {
+  padding: 0 15px 0 0;
+}
+
+.contact_location h3 {
+  margin: 0;
+}
+
+.contact_map {
+  width: 100%;
+  height: 300px;
+}
+
+/* CONTACT FORM */
+
+.contact_form_section {
+  padding: 0 0 0 15px;
+}
+
+.contact_form_text {
+  font-size: 0.8rem;
+}
+
+}
+
+@media (min-width: 640px) and (orientation: landscape) {
+
+  /* FRONT HEADER OF THE PAGE */
+
+  .header_bottom {
+    bottom: -10px;
+  }
+
+
+  .front_hero {
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    position: relative;
+  }
+
+  /* VIDEO BACKGROUND FOR HEADER, DOESNT DISPLAY IN MOBILE VERSION */
+
+  .video {
+      display: block;
+      min-height: 100%;
+      min-width: 100vw;
+  		position: absolute;
+  		top: 0;
+  		left: 0;
+  		z-index: -5;
+  }
+
+  /* FRONT HEADER OF THE PAGE */
+
+  .header_title {
+    margin: 35vh 0 0 10vw;
+  }
+
+  .header_title h1 {
+    font-size: 2.8rem;
+  }
+
+  /* BRIEF SECTION */
+
+  .brief {
+    padding: 150px 0;
+  }
+
+  .brief_text {
+    font-size: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  /* SERVICIOS FLEX CONTAINER BIG CATEGORIES */
+
+  .servicios_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 100px 0;
+    max-width: 1150px;
+    margin: 0 auto;
+  }
+
+  .servicios_category {
+    height: 650px;
+    width: 32%;
+    margin: 10px 4px;
+    padding: 0 30px;
+  }
+
+  .servicios_category_text {
+    padding-top: 65%;
+    height: 80%;
+  }
+
+  .pruebas_link {
+    font-size: 0.8rem;
+  }
+
+  /* SERVICIOS FLEX ITEMS SMALL */
+
+  .servicios_externos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 32%;
+    height: 450px;
+    margin: 10px 4px;
+    padding: 0 30px;
+    text-align: center;
+  }
+
+  /* SECTION NOSOTROS */
+
+  .section_header {
+    padding: 50px 0;
+    max-width: 820px;
+    margin: 0 auto;
+  }
+
+  .header_text {
+    font-size: 0.9rem;
+  }
+
+  /* STAFF FLEX */
+
+  .staff_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 5vw;
+  }
+
+  .staff_item {
+    width: 19%;
+    margin: 20px 4px;
+  }
+
+  .staff_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 2px white;
+    height: 220px;
+  }
+
+  .staff_name {
+    font-size: 1.1rem;
+  }
+
+  .staff_position {
+    font-size: 0.8rem;
+  }
+
+  .staff_email {
+    font-size: 0.7rem;
+  }
+
+  /* CLIENTES SECTION */
+
+  .clientes_flex {
+    max-width: 900px;
+    margin: 30px auto;
+  }
+
+  .clientes_item {
+    width: 25%;
+    padding: 30px 2%;
+  }
+
+  /* CONTACT FLEX SECTION */
+
+  .contact_flex {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8vw 120px 8vw;
+
+  }
+
+  .contact_item {
+    margin-bottom: 0px;
+  }
+
+  /* CONTACT MAP */
+
+  .contact_location {
+    padding: 0px;
+    width: 40%;
+  }
+
+  .contact_map {
+    height: 400px;
+    width: 400px;
+  }
+
+  /* CONTACT FORM */
+
+  .contact_form_section {
+    padding: 0px;
+    width: 50%;
+  }
+
+  .contact_form_text {
+    font-size: 0.8rem;
+  }
+
+  /* FOOTER SECTION */
+
+  .footer_address {
+    display: inline-block;
+    float: left;
+  }
+
+  .footer_img_logo {
+    display: inline-block;
+  }
+
+  .footer_certification {
+    display: inline-block;
+    float: right;
   }
 
 }

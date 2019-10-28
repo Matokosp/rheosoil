@@ -47,7 +47,7 @@
   left: 25px;
   top: 20px;
   z-index: 99;
-  width: 28px;
+  width: 29px;
   transition: 0.4s ease-in-out;
   text-align: right;
 }
@@ -94,25 +94,45 @@
     top: 0;
     height: 100px;
     z-index: 50;
-    padding: 30px 0 0 30px;
+    padding: 0px;
     width: 100%;
     background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    transform: translateX(0px);
   }
 
-  .menu_logo .mobile {
+  .menu_logo.dsktp {
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+  }
+
+  .menu_logo.mobile {
     display: none;
   }
 
   .menu ul {
     float: right;
-    margin-right: 5vw;
+    margin: 25px 3vw 0 0;
+    display: inline-block;
+    vertical-align: middle;
   }
 
   .menu ul li {
+    font-size: 0.8rem;
     font-weight: 600;
     color: #fff;
     display: inline-block;
-    margin: 0 20px;
+    margin: 0 15px;
+  }
+
+  .menu ul li:hover {
+    text-decoration: underline;
+  }
+
+  .hamburger_div {
+    display: none;
   }
 
 }
