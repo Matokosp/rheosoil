@@ -259,6 +259,15 @@ ul {
 
 .staff_item_photo {
   width: 100%;
+  transition: 0.4s;
+}
+
+.staff_item_photo-color {
+  display: none;
+}
+
+.staff_item_photo-fade {
+  opacity: 0;
 }
 
 .staff_info {

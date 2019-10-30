@@ -76,6 +76,35 @@
     border: solid 3px white;
   }
 
+  /* PRUEBAS PAGES */
+
+  .pruebas_main {
+    text-align: right;
+  }
+
+  .prueba_item_header {
+    width: 80vw;
+    display: inline-block;
+    text-align: left;
+  }
+
+  .prueba_item_gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .prueba_img_wide {
+    width: 50%;
+    padding: 3px;
+  }
+
+  .prueba_img_tall {
+    width: 50%;
+    padding: 3px;
+  }
+
 }
 
 
@@ -292,6 +321,25 @@
   .staff_item {
     width: 19%;
     margin: 20px 4px;
+    position: relative;
+  }
+
+  .staff_item_photo {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    transition: 0.4s;
+  }
+
+  .staff_item_photo-color {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
   }
 
   .staff_info {
@@ -379,5 +427,81 @@
     display: inline-block;
     float: right;
   }
+
+  /* PRUEBAS PAGES */
+
+  .pruebas_main {
+    text-align: right;
+  }
+
+  .prueba_item {
+    margin-bottom: 50px;
+  }
+
+  .prueba_item_header {
+    width: 80vw;
+    display: inline-block;
+    text-align: left;
+  }
+
+  .prueba_item_gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 80vw;
+    margin-left: 20vw;
+  }
+
+  .prueba_img_wide {
+    width: 50%;
+    padding: 3px;
+  }
+
+  .prueba_img_tall {
+    width: 50%;
+    padding: 3px;
+  }
+
+  /* PAGINA REOLOGIA */
+
+  .reologia_header_title {
+    font-size: 4rem;
+    margin: 2px 0;
+  }
+
+}
+
+@media (min-width: 1440px) and (orientation: landscape) {
+
+  /* PRUEBAS PAGE */
+
+  .prueba_img_wide {
+    width: 50%;
+  }
+
+  .prueba_img_tall {
+    width: 33.3%;
+  }
+
+  /* REOLOGIA PAGE */
+
+  .prueba_item_header {
+    padding: 50px 25% 50px 100px;
+  }
+
+  .prueba_item_header h2 {
+    margin-top: 0;
+    font-size: 2.5rem;
+  }
+
+  .prueba_item_description {
+    font-size: 0.9rem;
+  }
+
+  .prueba_item_list {
+    font-size: 0.9rem;
+  }
+
 
 }

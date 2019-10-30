@@ -149,4 +149,28 @@
     display: none;
   }
 
+  /* PRUEBAS PAGES MENU */
+
+  .pruebas_menu {
+    display: inline-block;
+    background-color: #97bcd3;
+    padding: 30px 25px;
+    position: absolute;
+    margin-top: 100px;
+  }
+
+  .pruebas_menu_link {
+    color: #fff;
+    font-size: 0.75rem;
+  }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+  }
+
+  .pruebas_menu_link-active {
+    font-weight: 700;
+    font-size: 0.8rem;
+  }
 }

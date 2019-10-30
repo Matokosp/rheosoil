@@ -14,15 +14,14 @@
   <body>
     <!-- MENU -->
     <nav class="menu">
-      <img class="menu_logo dsktp" src="assets/images/logo.png" alt="">
-      <img class="menu_logo mobile" src="assets/images/logo-black.png" alt="">
-      <img src="" alt="">
+      <a href="index.html"><img class="menu_logo dsktp" src="assets/images/logo.png" alt=""></a>
+      <a href="index.html"><img class="menu_logo mobile" src="assets/images/logo-black.png" alt=""></a>
       <ul>
-        <li><a href="#header">HOME</a></li>
-        <li><a href="#servicios">SERVICIOS</a></li>
-        <li><a href="#nosotros">NOSOTROS</a></li>
-        <li><a href="#clientes">CLIENTES</a></li>
-        <li><a href="#contacto">CONTACTO</a></li>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="index.html#servicios">SERVICIOS</a></li>
+        <li><a href="index.html#nosotros">NOSOTROS</a></li>
+        <li><a href="index.html#clientes">CLIENTES</a></li>
+        <li><a href="index.html#contacto">CONTACTO</a></li>
       </ul>
     </nav>
     <div class="hamburger_div" id="hamburger">
@@ -36,16 +35,19 @@
       <a class="reologia_header_link" href="index.html#servicios">volver a servicios</a>
       <img class="pruebas_bottom_img" src="assets/images/pruebas-bottom.png" alt="">
     </header>
-    <ul class="pruebas_menu">
-      <li class="pruebas_menu_link">Yield Stress/Viscosidad</li>
-      <li class="pruebas_menu_link">Pendeinte de depositación</li>
-      <li class="pruebas_menu_link">Caractrización de muestra</li>
-      <li class="pruebas_menu_link">Límite de contracción</li>
+    <ul class="pruebas_menu" id="pruebasMenu">
+      <li class="pruebas_menu_link"><a href="#preparacion">Preparación de Muestra</a></li>
+      <li class="pruebas_menu_link"><a href="#fisica">Caracterización Física</a></li>
+      <li class="pruebas_menu_link"><a href="#reologica">Caracterización Reológica</a></li>
+      <li class="pruebas_menu_link"><a href="#depositacion">Pendiente de Depositación</a></li>
+      <li class="pruebas_menu_link"><a href="#sedimentacion">Sedimentación estática y dinámica</a></li>
+      <li class="pruebas_menu_link"><a href="#contraccion">Límites de contracción</a></li>
       <br>
-      <li class="pruebas_menu_link">Pruebas de Sedimentación</li>
+      <li class="pruebas_menu_link">Consolidación a carga variable</li>
+      <li class="pruebas_menu_link">Permeabilidad a cargas variables</li>
     </ul>
     <main class="pruebas_main">
-      <div class="prueba_item">
+      <div class="prueba_item" id="preparacion">
         <div class="prueba_item_header">
           <h2>Preparación de muestra</h2>
         </div>
@@ -56,7 +58,7 @@
           <img class="prueba_img_wide" src="assets/images/preparacion1.jpg" alt="">
         </div>
       </div>
-      <div class="prueba_item">
+      <div class="prueba_item" id="fisica">
         <div class="prueba_item_header">
           <h2>Caracterización física de la muestra</h2>
           <div class="prueba_item_header_line"></div>
@@ -71,12 +73,12 @@
           <img class="prueba_img_tall" src="assets/images/granulometria1.jpg" alt="">
           <img class="prueba_img_tall" src="assets/images/granulometria2.jpg" alt="">
           <img class="prueba_img_tall" src="assets/images/granulometria3.jpg" alt="">
-          <img class="prueba_img_wide" src="assets/images/granulometria4.jpg" alt="">
-          <img class="prueba_img_wide" src="assets/images/granulometria5.jpg" alt="">
+          <img class="prueba_img_tall" src="assets/images/granulometria4.jpg" alt="">
+          <img class="prueba_img_tall" src="assets/images/granulometria5.jpg" alt="">
           <img class="prueba_img_tall" src="assets/images/granulometria6.jpg" alt="">
         </div>
       </div>
-      <div class="prueba_item">
+      <div class="prueba_item" id="reologica">
         <div class="prueba_item_header">
           <h2>Caracterización reológica</h2>
           <div class="prueba_item_header_line"></div>
@@ -100,7 +102,7 @@
           <img class="prueba_img_tall" src="assets/images/caractreologica6.jpg" alt="">
         </div>
       </div>
-      <div class="prueba_item">
+      <div class="prueba_item" id="depositacion">
         <div class="prueba_item_header">
           <h2>Pendiente de depositación</h2>
           <div class="prueba_item_header_line"></div>
@@ -111,26 +113,37 @@
           <img class="prueba_img_tall" src="assets/images/pendiente2.jpg" alt="">
         </div>
       </div>
-      <div class="prueba_item">
+      <div class="prueba_item" id="sedimentacion">
         <div class="prueba_item_header">
           <h2>Sedimentación estática y dinámica:</h2>
           <div class="prueba_item_header_line"></div>
           <p class="prueba_item_description">Estas pruebas tienen como objetivo obtener los parámetros de sedimentación para el dimensionamiento de espesadores convencionales, alta capacidad, alta densidad y pasta.</p>
         </div>
         <div class="prueba_item_gallery">
-          <img class="prueba_img_tall" src="" alt="">
-          <img class="prueba_img_tall" src="" alt="">
+          <img class="prueba_img_tall" src="assets/images/sedimentacion1.jpg" alt="">
+          <img class="prueba_img_tall" src="assets/images/sedimentacion2.jpg" alt="">
+          <img class="prueba_img_tall" src="assets/images/sedimentacion3.jpg" alt="">
         </div>
       </div>
-      <div class="prueba_item">
+      <div class="prueba_item" id="contraccion">
         <div class="prueba_item_header">
           <h2>Límites de contracción:</h2>
           <div class="prueba_item_header_line"></div>
           <p class="prueba_item_description">Estas pruebas tienen como objetivo obtener los parámetros de sedimentación para el dimensionamiento de espesadores convencionales, alta capacidad, alta densidad y pasta.</p>
         </div>
         <div class="prueba_item_gallery">
-          <img class="prueba_img_tall" src="" alt="">
-          <img class="prueba_img_tall" src="" alt="">
+          <img class="prueba_img_tall" src="assets/images/contraccion1.jpg" alt="">
+          <img class="prueba_img_tall" src="assets/images/contraccion2.jpg" alt="">
+        </div>
+      </div>
+      <div class="prueba_item">
+        <div class="prueba_item_header">
+          <h2>Ensayo de consolidación a carga variable</h2>
+        </div>
+      </div>
+      <div class="prueba_item">
+        <div class="prueba_item_header">
+          <h2>Ensayo de permeabilidad a cargas variables</h2>
         </div>
       </div>
     </main>
