@@ -434,3 +434,95 @@ input[type=submit]:hover {
   font-style: italic;
   font-size: 0.9rem;
 }
+
+/* PRUEBAS PAGES */
+
+.pruebas_main {
+  padding-top: 100px;
+}
+
+.pruebas_bottom_img {
+  width: 100%;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+}
+
+.prueba_item {
+  margin-bottom: 50px;
+}
+
+.prueba_item_header {
+  background-color: #000;
+  color: #fff;
+  padding: 30px 8vw;
+  margin-bottom: 3px;
+}
+
+.prueba_item_header_line {
+  background-color: #fff;
+  height: 3px;
+  width: 30px;
+  display: block;
+}
+
+.prueba_item_description {
+  font-size: 0.8rem;
+}
+
+.prueba_item_list {
+  font-size: 0.8rem;
+}
+
+.prueba_item_gallery {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.prueba_img_wide {
+  width: 100%;
+  padding: 3px 0;
+}
+
+.prueba_img_tall {
+  width: 100%;
+  padding: 3px 0;
+}
+
+
+/* REOLOGIA PAGE */
+
+.reologia_header {
+  background-image: url('../images/reologia-header-bkg-mobile.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  padding: 35vh 0 0 10vw;
+  color: #fff;
+}
+
+.reologia_header_title {
+  font-size: 3rem;
+  margin: 2px 0;
+}
+
+.reologia_header_subtitle {
+  margin: 10px 0 40px 0;
+}
+
+.reologia_header_link {
+  text-transform: uppercase;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 50px;
+  letter-spacing: 2px;
+  font-size: 0.8rem;
+  transition: 0.3s;
+}
+
+.reologia_header_link:hover {
+  background-color: #fff;
+  color: #000;
+}
