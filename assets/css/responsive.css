@@ -203,6 +203,13 @@
   font-size: 0.8rem;
 }
 
+/* MECANICA DE SUELOS PAGE */
+
+.mecanicasuelos_item {
+  width: 32%;
+  height: 180px;
+}
+
 }
 
 @media (min-width: 640px) and (orientation: landscape) {
@@ -465,9 +472,33 @@
 
   /* PAGINA REOLOGIA */
 
+  .reologia {
+    background-image: url('../images/reologia-header-bkg.jpg');
+  }
+
   .reologia_header_title {
     font-size: 4rem;
     margin: 2px 0;
+  }
+
+  /* PAGINA MECANICA DE SUELOS */
+
+  .mecanica {
+    background-image: url('../images/mecanica-header-bkg.jpg');
+  }
+
+  .mecanicasuelos_flex {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .mecanicasuelos_item {
+    width: 32%;
+    height: 200px;
+  }
+
+  .mecanicasuelos_item:hover {
+    background-color: #efac5b;
   }
 
 }
@@ -503,5 +534,13 @@
     font-size: 0.9rem;
   }
 
+
+}
+
+@media (min-width: 1440px) and (orientation: landscape) {
+
+  .pruebas_bottom_img {
+    bottom: -25px;
+}
 
 }
