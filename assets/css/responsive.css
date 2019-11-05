@@ -105,6 +105,22 @@
     padding: 3px;
   }
 
+
+  /* PAGINA LABORATORIO DE SUELOS */
+
+  .laboratorio_item {
+    width: 49%;
+    margin: 2px;
+  }
+
+  .laboratorio_item_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+  }
+
 }
 
 
@@ -499,6 +515,71 @@
 
   .mecanicasuelos_item:hover {
     background-color: #efac5b;
+  }
+
+  .mecanicasuelos_icon {
+    width: 50px;
+  }
+
+  .mecanicasuelos_title {
+    font-size: 1rem;
+  }
+
+  /* PAGINA LABORATORIO DE SUELOS */
+
+  .laboratorio {
+    background-image: url('../images/laboratorio-header-bkg.jpg');
+  }
+
+  .laboratorio_main {
+    padding: 120px 0;
+  }
+
+  .laboratorio_item {
+    width: 32%;
+    margin: 8px 3px;
+    position: relative;
+  }
+
+  .laboratorio_img-negro {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 3px;
+    left: 0;
+    z-index: 3;
+    transition: 0.4s;
+  }
+
+  .laboratorio_img {
+    top: 3px;
+  }
+
+  .laboratorio_item_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+    padding: 15%;
+    background-color: #000;
+    color: #fff;
+    transition: 0.4s;
+    border: solid black 2px;
+  }
+
+  .laboratorio_item:hover .laboratorio_item_header {
+    background-color: #fff;
+    color: #000;
+    border: solid #f1f2f2 2px;
+  }
+
+  .laboratorio_item:hover .laboratorio_img-negro {
+    opacity: 0;
+  }
+
+  .laboratorio_item_header h2 {
+    font-size: 1.4rem;
   }
 
 }

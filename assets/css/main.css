@@ -577,3 +577,44 @@ input[type=submit]:hover {
 .mecanicasuelos_title {
   font-size: 0.9rem;
 }
+
+/* PAGINA LABORATORIO DE SUELOS */
+
+.laboratorio {
+  background-image: url('../images/laboratorio-header-bkg-mobile.jpg');
+}
+
+.laboratorio_main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.laboratorio_item {
+  color: #fff;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.laboratorio_img-negro {
+  display: none;
+}
+
+.laboratorio_img {
+  width: 100%;
+  position: relative;
+  top: 4px;
+}
+
+.laboratorio_item_header {
+  background-color: #000;
+  padding: 20px 20px 30px 20px;
+}
+
+.laboratorio_item_description {
+  font-size: 0.8rem;
+}
