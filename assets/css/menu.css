@@ -146,19 +146,21 @@
   }
 
   .menu_li {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     font-weight: 600;
     color: #fff;
     display: inline-block;
     margin: 0 15px;
     transition: 0.4s;
+    letter-spacing: 2px;
   }
 
   .menu_li-noticias {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     font-weight: 600;
     display: inline-block;
     margin-left: 10px;
+    letter-spacing: 2px;
   }
 
   .menu_li:hover {
