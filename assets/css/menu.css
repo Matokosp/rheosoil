@@ -31,14 +31,25 @@
   height: 70%;
 }
 
-.menu ul li {
+.menu_li {
   font-weight: 600;
   display: block;
   margin: 20px 0;
+  font-size: 1.6rem;
 }
 
-.menu ul li {
+.menu_li-noticias {
+  font-weight: 600;
+  display: block;
+  margin: 20px 0;
   font-size: 1.6rem;
+}
+
+.noticias_menu {
+  color: #fff;
+  background-color: #f75848;
+  padding: 5px 15px;
+  border-radius: 50px;
 }
 
 .hamburger_div {
@@ -127,22 +138,34 @@
   }
 
   .menu ul {
-    float: right;
-    margin: 25px 3vw 0 0;
+    position: absolute;
+    top: 0px;
+    right: 3vw;
     display: inline-block;
     vertical-align: middle;
   }
 
-  .menu ul li {
+  .menu_li {
     font-size: 0.8rem;
     font-weight: 600;
     color: #fff;
     display: inline-block;
     margin: 0 15px;
+    transition: 0.4s;
   }
 
-  .menu ul li:hover {
-    text-decoration: underline;
+  .menu_li-noticias {
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: inline-block;
+    margin-left: 10px;
+  }
+
+  .menu_li:hover {
+    background-color: #fff;
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 50px;
   }
 
   .hamburger_div {
