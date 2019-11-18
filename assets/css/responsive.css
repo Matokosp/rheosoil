@@ -511,6 +511,7 @@
   .mecanicasuelos_item {
     width: 32%;
     height: 200px;
+    cursor: pointer;
   }
 
   .mecanicasuelos_item:hover {
